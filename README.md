@@ -4,7 +4,7 @@ Global-gridded cloud data product from combined satellite radar (CloudSat) and l
 
 For more information, see "A Global Gridded Dataset for Cloud Vertical Structure from Combined CloudSat and CALIPSO Observations" in Earth System Science Data, 2023.
 
-To download the data product, go to [zenodo](https://zenodo.org/records/8057791).
+The product is available for download on [zenodo](https://zenodo.org/records/8057791).
 
 ## Contents
 ### `/examples`
