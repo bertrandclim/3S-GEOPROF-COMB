@@ -1,4 +1,5 @@
 # 3S-GEOPROF-COMB
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bertrandclim/3S-GEOPROF-COMB/HEAD?labpath=examples%2Fbrief_intro.ipynb)
 
 Global-gridded cloud data product from combined satellite radar (CloudSat) and lidar (CALIPSO). This repository contains example notebooks showing how to work with the data product (`/examples`) as well as the source code used to produce the data product (`/src`).
 
@@ -8,7 +9,7 @@ The product is available for download on [zenodo](https://zenodo.org/records/805
 
 ## Contents
 ### `/examples`
-Example Jupyter notebook showing how to work with the data product (`brief_intro.ipynb`).
+Example Jupyter notebook showing how to work with the data product (`brief_intro.ipynb`). Click "launch binder" to explore this notebook.
 
 ### `/src` 
 Codebase used to produce the product by processing along-track (level 2) input data. See `/src/README.md` for more details.
