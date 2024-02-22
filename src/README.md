@@ -3,7 +3,7 @@ Codebase used to produce the 3S-GEOPROF-COMB data product on the RMACC Summit an
 
 Note that this code is __not__ distributed as a package or library, but is simply shared for archival purposes. Please contact me (leah.bertrand AT colorado.edu) if you are interested in adapting this code to your needs. 
 
-Of general interest may be the `read_GEOPROF` method in `cloudsat_util_09.py`, which reads 2B-GEOPROF and 2B-GEOPROF-LIDAR granules (in HDF4-EOS format) into an Xarray Dataset for easy integration with other Python libraries.
+Of general interest may be the `read_GEOPROF` method in `cloudsat_util_09.py`, which reads a 2B-GEOPROF or 2B-GEOPROF-LIDAR granule (in HDF4-EOS format) into an Xarray Dataset for easy integration with other Python libraries.
 
 ## Getting started
 
