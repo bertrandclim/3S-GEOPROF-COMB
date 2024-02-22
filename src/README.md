@@ -22,13 +22,11 @@ cd ./3S-GEOPROF-COMB/src
 python 9-7_build_coverandheight_grid_v8.3.py -h
 ```
 4. Download 2B-GEOPROF and 2B-GEOPROF-LIDAR granules from the [CloudSat Data Processing Center](https://www.cloudsat.cira.colostate.edu/).
- 
-> If running on a local machine, I would not reccomend processing more than several hundred granules at a time, though much less than this will do for simple testing.
-
 5. Run script to compute statistics of simultaneous 2B-GEOPROF and 2B-GEOPROF-LIDAR granules on a 10°x10° grid
 ```bash
 `python 9-7_build_coverandheight_grid_v8.3.py -g 10 -r /path/to/2B-GEOPROF/ -l /path/to/2B-GEOPROF-LIDAR`
 ```
+> If running on a local machine, I would not reccomend processing more than several hundred granules at a time, though much less than this will do for simple testing.
 Many other settings for the product are possible. Options used for the most recent round of production (i.e. recently tested options) include `-g`,`-o`,`-k`,`-f`, `-s`, `--nb`, `--nd`, `--month`, and `--year`. 
 
 ## Contents:
