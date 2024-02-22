@@ -27,6 +27,7 @@ python 9-7_build_coverandheight_grid_v8.3.py -h
 `python 9-7_build_coverandheight_grid_v8.3.py -g 10 -r /path/to/2B-GEOPROF/ -l /path/to/2B-GEOPROF-LIDAR`
 ```
 > If running on a local machine, I would not reccomend processing more than several hundred granules at a time, though much less than this will do for simple testing.
+
 Many other settings for the product are possible. Options used for the most recent round of production (i.e. recently tested options) include `-g`,`-o`,`-k`,`-f`, `-s`, `--nb`, `--nd`, `--month`, and `--year`. 
 
 ## Contents:
