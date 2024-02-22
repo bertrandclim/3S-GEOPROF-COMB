@@ -11,4 +11,4 @@ The product is available for download on [zenodo](https://zenodo.org/records/805
 Example Jupyter notebook showing how to work with the data product (`brief_intro.ipynb`).
 
 ### `/src` 
-Source code used to produce the product. Please send me an email (check my GitHub profile for contact information) if you'd like to adapt this code to your needs. Check `/src/README.md` for more info.
+Codebase used to produce the product by processing along-track (level 2) input data. See `/src/README.md` for more details.
