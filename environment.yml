@@ -1,0 +1,9 @@
+name: brief_intro_notebook
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - xarray
+  - cartopy
+  - netcdf4
