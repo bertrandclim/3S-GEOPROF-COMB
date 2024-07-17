@@ -1,5 +1,5 @@
 # 3S-GEOPROF-COMB
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bertrandclim/3S-GEOPROF-COMB/HEAD?labpath=examples%2Fbrief_intro.ipynb) [![DOI](https://zenodo.org/badge/709603243.svg)](https://zenodo.org/doi/10.5281/zenodo.10689927)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bertrandclim/3S-GEOPROF-COMB/HEAD?labpath=notebooks%2Fbrief_intro.ipynb) [![DOI](https://zenodo.org/badge/709603243.svg)](https://zenodo.org/doi/10.5281/zenodo.10689927)
 
 Global-gridded cloud data product from combined satellite radar (CloudSat) and lidar (CALIPSO). This repository contains example notebooks showing how to work with the data product (`/notebooks`) as well as the source code used to produce the data product (`/production`).
 

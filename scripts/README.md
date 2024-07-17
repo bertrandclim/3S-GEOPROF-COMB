@@ -23,13 +23,13 @@ python build_coverandheight_grid_v8.4.py -h
 4. Download some 2B-GEOPROF and 2B-GEOPROF-LIDAR granules from the [CloudSat Data Processing Center](https://www.cloudsat.cira.colostate.edu/).
 5. Run script to compute statistics of simultaneous 2B-GEOPROF and 2B-GEOPROF-LIDAR granules on a 10°x10° grid
 ```bash
-`python build_coverandheight_grid_v8.4.py sub -g 10 -r /path/to/2B-GEOPROF -l /path/to/2B-GEOPROF-LIDAR` -nworkers 8
+python build_coverandheight_grid_v8.4.py sub -g 10 -r /path/to/2B-GEOPROF -l /path/to/2B-GEOPROF-LIDAR -nworkers 8
 ```
 > If running on a local machine, I would not reccomend processing more than several hundred granules at a time, though much less than this will do for simple testing.
 
 Many other settings for the product are possible, as indicated by `python build_coverandheight_grid_v8.4.py full -h` and `python build_coverandheight_grid_v8.4.py sub -h`.
 
-## Contents:
+## Contents
 * `build_coverandheight_grid_v8.4.py`: script for computing data product output for one month and one set of options
 * `build_seasonal_from_monthly_v8.4.py`: script for computing seasonal output from a series of monthly outputs
 * `cloudsat_util_10.py`: library of methods useful for working with the data
