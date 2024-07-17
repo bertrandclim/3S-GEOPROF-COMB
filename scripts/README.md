@@ -1,7 +1,9 @@
 # 3S-GEOPROF-COMB production source code
 Codebase used to produce the 3S-GEOPROF-COMB data product on the RMACC Alpine computing cluster. 
 
-Of general interest may be the `read_GEOPROF` method in `cloudsat_util_10.py`, which reads a 2B-GEOPROF or 2B-GEOPROF-LIDAR granule (in HDF4-EOS format) into an xarray Dataset for easy integration with other Python libraries.
+Of general interest may be the `read_GEOPROF` method in `cloudsat_util_10.py`, which reads a 2B-GEOPROF or 2B-GEOPROF-LIDAR granule (in HDF4-EOS format) into an `xarray.Dataset` for easy integration with other libraries.
+
+Please cite the Zenodo listing of this repository (DOI: 10.5281/zenodo.10689927) if you use any part of this code. Feel free to contact me (leah DOT bertrand AT colorado.edu) if you have any questions about adapting this codebase to your own purposes.
 
 ## Getting started
 
@@ -21,9 +23,9 @@ conda activate cscalprod
 python build_coverandheight_grid_v8.4.py -h
 ```
 4. Download some 2B-GEOPROF and 2B-GEOPROF-LIDAR granules from the [CloudSat Data Processing Center](https://www.cloudsat.cira.colostate.edu/).
-5. Run script to compute statistics of simultaneous 2B-GEOPROF and 2B-GEOPROF-LIDAR granules on a 10°x10° grid
+5. Run script to compute statistics of colocated radar and lidar profiles on a 10°x10° grid
 ```bash
-python build_coverandheight_grid_v8.4.py sub -g 10 -r /path/to/2B-GEOPROF -l /path/to/2B-GEOPROF-LIDAR -nworkers 8
+python build_coverandheight_grid_v8.4.py sub -g 10 -r /path/to/2B-GEOPROF -l /path/to/2B-GEOPROF-LIDAR --nworkers 8
 ```
 > If running on a local machine, I would not reccomend processing more than several hundred granules at a time, though much less than this will do for simple testing.
 
