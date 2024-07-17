@@ -1,0 +1,15 @@
+name: cscalprod
+channels:
+  - conda-forge
+dependencies:
+  - python >= 3.8
+  - xarray
+  - dask
+  - bottleneck
+  - numpy
+  - pandas
+  - scipy
+  - cartopy
+  - matplotlib
+  - pyhdf
+  - netcdf4

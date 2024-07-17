@@ -1,0 +1,5 @@
+-d ../resources
+-p /path/to/copy/of/ftp.cloudsat.cira.colostate.edu
+--scratchdir /scratch/alpine/user/intermediates
+--nworkers 16
+--threads-per-worker 1
