@@ -12,4 +12,4 @@ The product is available for download on [zenodo](https://zenodo.org/records/805
 Example Jupyter notebook showing how to work with the data product (`brief_intro.ipynb`). Click "launch binder" to explore this notebook.
 
 ### `/scripts` 
-Production scripts used to produce the product by processing along-track (level 2) input data. See `/production/README.md` for more details.
+Production scripts used to produce the product by processing along-track (level 2) input data. See `/scripts/README.md` for more details.
