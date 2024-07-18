@@ -151,7 +151,7 @@ def savefig(dsi,kind,fname,outdir):
     ax = plt.subplot(1, 1, 1, projection=ccrs.PlateCarree())
     doopstate=b'All cases'
     data = dsi.sel(doop=doopstate)['cloud_cover_in_column'].sel(type=b'any')
-    im = ax.imshow(data, origin='lower', extent=[-180,180,-90,90], transform=ccrs.PlateCarree(),cmap='viridis',interpolation='none',vmin=0,vmax=1)
+    im = ax.imshow(data, origin='lower', extent=[-180,180,-90,90], transform=ccrs.PlateCarree(),cmap='viridis',interpolation='none',vmin=0,vmax=100)
     ax.coastlines()
     t0  = dsi.attrs['time_range'][:10]
     t1  = dsi.attrs['time_range'][26:36]
